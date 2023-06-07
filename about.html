@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "Viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zewd Acadamy</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Navigation-->
+        <nav>
+            <img src="images/zewd.png" >
+            <div class="navigation">
+                <ul>
+                    <i id = "menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class = "active" href="about.html">About</a></li>
+                   
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/bars-solid.svg" alt="">
+            </div>
+        </nav>
+
+<!-- Home -->
+<section id = "about-home">
+    <h2>About US</h2>
+</section>
+
+
+<section id="about-container">
+    <div class="about-img">
+    <video width="500" height="400" controls>
+        <source src="images/ne.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+<div class = "about-text">
+    <h2>Welcome to zewd Acadamy</h2>
+    <ul>you can start and finished the following courses with certificate :</ul>
+    <li>graphics Design & Digital Marketing</li>
+    <li>Interior Design & Decoration</li>
+    <li>motion graphics & Video Editing</li>
+    <li>Basic Computer Skill</li>
+    <li>Web & App Development</li>
+    <li>Python For Data Science & AI Research</li>
+    <li>Arduino Programming & Project Mentor</li>
+    <li>graphics Design & Digital Marketing</li>
+    <li>Camera Shooting & Video Editing</li>
+    <li>graphics Design & Digital Marketing</li>
+</div>
+</section>
+
+<footer>
+    <div class="footer-col">
+        <h3>Top Product</h3>
+        <li>Develop website</li>
+        <li>Manage Website</li>
+        <li>Develop mobile and descktop App</li>
+        <li>Develop AI model</li>
+        <li>Develop IoT system</li>
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>postor and Logo Design</li>
+        <li>Interior Design</li>
+        <li>2D and 3D motion graphics works</li>
+        <li>Full Branding of A campany</li>
+        <li>social media management </li>
+        
+    </div>
+    <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Project work</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="copyright">
+        <p>Copyright @2023 All rights reserved</p>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+
+</footer>
+    <script>
+         $('#menu-btn').click(function(){
+           $('nav .navigation ul').addClass('active') 
+        });
+        $('#menu-close').click(function(){
+           $('nav .navigation ul').removeClass('active') 
+        });
+    </script>
+
+
+    </body>
+</html>
