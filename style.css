@@ -526,7 +526,7 @@ margin-bottom: 16px;
         background: rgba(17, 20, 104, 0.45);
         backdrop-filter: blur(4.5px);
         border: 1px solid rgba(255, 255, 255, 0.18);
-        color: #ffff;
+        
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -539,13 +539,13 @@ margin-bottom: 16px;
 
 
 
-    nav .navigation ul li{
+    nav .navigation ul li {
         padding: 20px 0 20px 40px;
         margin-left: 0;
         color: #ffffff;
 
     }
-    nav .navigation ul li{
+    nav .navigation ul li a{
         color: #ffffff;
     }
     
